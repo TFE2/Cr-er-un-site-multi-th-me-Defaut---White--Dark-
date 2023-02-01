@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("white.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.sample {
+	box-shadow: 0 0 5px 0;
+	background-color: rgb(200 214 249 / 57%);
+    backdrop-filter: blur(10px);
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.sample p {
+	color: black;
+	font-style: bold;
+	margin: 15px 15px;
+}
+
+input[type="text"]{
+	padding-left: 6px;
+	height: 30px;
+	border: none;
+	border: 1px solid rgb(80 155 243);
+	border-radius: 20px;
+}
+
+.sample button{
+	border: none;
+	background-color: rgb(80 155 243);
+	color: white;
+	height: 32px;
+	width: 80px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.button_theme{
+	margin: 50px;
+
+}
+
+input[type="submit"]{
+
+	background: white;
+    padding: 5px 10px;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.actif {
+	background-color: rgb(80 155 243) !important;
+	box-shadow: 0 0 5px 0;
+}
